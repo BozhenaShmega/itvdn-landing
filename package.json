@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gulp": "gulp",
-    "server": "gulp serve"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -31,5 +30,9 @@
     "gulp-sass": "^4.0.1",
     "gulp.spritesmith": "^6.9.0",
     "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
   }
 }

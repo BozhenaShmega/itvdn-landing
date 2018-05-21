@@ -1,7 +1,13 @@
-h1 {
-    color: red;
-    border: 1px solid salmon;
-}
-body {
-    background-color: lightgray;
-}
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+
+@import "global/fonts";
+@import "global/mixins";
+@import "global/vars";
+@import "global/sprite";
+@import "global/common";
+@import "global/base";
+@import "global/button";
+
+@import "sections/header";
+@import "sections/nav";
