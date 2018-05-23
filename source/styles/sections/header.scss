@@ -58,6 +58,10 @@
     border-radius: 3px;
     background-color: #1287bf;
     color: #fff;
+
+    &:hover {
+        background-color: darken(#1287bf, 5%);
+    }
 }
 
 
