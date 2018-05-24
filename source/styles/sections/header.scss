@@ -10,6 +10,20 @@
         flex-wrap: wrap;
         align-items: center;
         padding: 32px 0 32px;
+
+        @media (max-width: 1000px) {
+            flex-direction: column;
+        }
+
+        .button {
+            @media (max-width: 1080px) {
+                margin-right: 15px;
+            }
+
+            @media (max-width: 1000px) {
+                margin-right: 0;
+            }
+        }
     }
 }
 
@@ -62,6 +76,16 @@
     &:hover {
         background-color: darken(#1287bf, 5%);
     }
+
 }
 
+.logo {
+    @media (max-width: 1080px) {
+        margin-left: 15px;
+    }
 
+    @media (max-width: 1000px) {
+        margin-left: -80px;
+        margin-bottom: 15px;
+    }
+}

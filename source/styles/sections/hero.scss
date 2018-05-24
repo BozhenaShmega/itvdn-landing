@@ -17,6 +17,11 @@
         font-family: $ff-main-light;
     }
 
+    @media (max-width: 1000px) {
+        padding: 100px 20px;
+        min-height: inherit;
+    }
+
     .button--text-uppercase {
         padding: 19px 38px;
         border-radius: 5px;

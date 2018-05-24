@@ -2,16 +2,25 @@
     display: inline-block;
     vertical-align: top;
     padding-top: 7px;
-    margin-right: 15px;
+    
+    margin-left: 110px;
+
+    @media (max-width: 1000px) {
+        margin-bottom: 25px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 
     &__link {
         display: inline-block;
-        vertical-align: top;
+        
         padding: 10px;
         font-family: $ff-main-bold;
         text-decoration: none;
         text-transform: capitalize;
         color: #424242;
+        font-size: 0.9rem;
         transition: 0.3s;
 
         &:hover,
@@ -32,6 +41,15 @@
 
         &:last-child:after {
             display: none;
+        }
+
+        @media (max-width: 530px) {
+            display: block;
+            text-align: center;
+
+            &:after {
+                display: none;
+            }
         }
     }
 }
