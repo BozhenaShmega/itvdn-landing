@@ -57,6 +57,8 @@ gulp.task('templates:compile', function buildHTML() {
 
 gulp.task('js', function() {
     return gulp.src([
+            'source/js/init.js',
+            'source/js/validation.js',
             'source/js/form.js',
             'source/js/main.js',
             'source/js/navigation.js'
