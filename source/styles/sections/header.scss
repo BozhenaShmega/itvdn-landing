@@ -73,6 +73,10 @@
     background-color: #1287bf;
     color: #fff;
 
+    @media (max-width: 1070px) {
+        margin-right: 17px;
+    }
+
     &:hover {
         background-color: darken(#1287bf, 5%);
     }
